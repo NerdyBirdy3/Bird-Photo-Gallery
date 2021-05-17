@@ -1,0 +1,20 @@
+h1
+{font-family: fantasy;}
+
+img
+{border-width: 10px;
+border-radius: 30px;
+width: 30%;}
+
+html
+{background-color: cornflowerblue;
+text-align: center;}
+
+#Div1 img
+{height: 330px;}
+
+#Div2 img
+{height: 230px;}
+
+#Div3 img
+{height: 250px;}
