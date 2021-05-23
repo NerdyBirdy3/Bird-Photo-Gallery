@@ -1,0 +1,24 @@
+h1
+{font-family: fantasy;}
+
+img
+{border:2px solid green;
+border-radius: 30px;
+width: 30%;
+padding:1px;}
+
+html
+{background-color: cornflowerblue;
+text-align: center;}
+
+#Div1 img
+{height: 330px;}
+
+#Div2 img
+{height: 230px;}
+
+#Div3 img
+{height: 250px;}
+
+#Slidergallery img
+{width: 80%;}

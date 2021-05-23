@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Bird Photo Gallery </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1> Pet Birds </h1>
+    <div id="Div1">
+        <img src="budgie.jfif"><img src="sun%20conure.jfif"><img src="ring%20necked%20parrot.jfif">
+    </div>
+    <div id="Div2"><img src="finch.jfif"><img src="lovebird.jfif"><img src="lorikeet.jfif"></div>
+    <div id="Div3"> <img src="canary.jfif"><img src="cockatiel.jfif"><img src="macaw.jfif"></div> <br>
+    <section id="Slides">
+        <center>
+            <h1> My Favorite Birds </h1>
+            <div id="Slidergallery" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#Slidergallery" data-slide-to="0" class="active"></li>
+                    <li data-target="#Slidergallery" data-slide-to="1"></li>
+                    <li data-target="#Slidergallery" data-slide-to="2"></li>
+                </ol>
+                <div class='carousel-inner'>
+                    <div class="item active">
+                        <img class="img-responsive" src="budgie.jfif">
+                        <div class="carousel-caption">
+                            <h2> Budgie </h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="finch.jfif">
+                        <div class="carousel-caption">
+                            <h2> Finch </h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="macaw.jfif">
+                        <div class="carousel-caption">
+                            <h2> Macaw </h2>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#Slidergallery" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span> </a>
+                <a class="right carousel-control" href="#Slidergallery" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a>
+            </div>
+
+        </center>
+    </section>
+</body>
+</html>
